@@ -1,0 +1,152 @@
+body {
+    font-size: 16px;
+    font-family: 'Robot', sans-serif;
+    font-weight: 20px;
+    color: black;
+    background: #f1f1f1;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25) ;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.Card {
+    border: 5px none #fff;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.color-1 {
+    background-color: rgb(245, 223, 191);
+}
+
+.color-2 {
+    background-color: rgb(156, 228, 194);
+    width: 100%;
+}
+
+.color-2 table {
+    text-align: left;
+}
+
+.color-3 {
+    background-color: rgb(247, 179, 167);
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    color: red;
+    opacity: 0.8;
+}
+    
+.a {
+    color: #333;
+    text-decoration: none;
+}
+
+.a:hover {
+    color: yellow;
+}
+
+.color-2 table tbody tr th {
+    padding-right: 50px;
+}
+
+.color-2 table tbody tr td {
+    padding-right: 10px 10px;
+}
+
+.color-2 table tbody tr:nth-child(odd) {
+    background-color: rgb(200 225 223 1);
+}
+.head-resume {
+    display: flex; 
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.content-head {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.head-resume h1 {
+    margin: 0px 0px 10px 10px;
+}
+
+.head-resume p {
+    margin: 10px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+} 
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+}
+
+@media (max-width: 650px ) {
+    .head-resume {
+        display: block; 
+        text-align: center;
+    }
+
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
